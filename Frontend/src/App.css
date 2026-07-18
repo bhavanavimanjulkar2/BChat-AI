@@ -1,0 +1,25 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    color: #ececec;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    color: #ececec;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media(max-width:768px){
+
+.container{
+
+    width:100%;
+
+}
+
+}

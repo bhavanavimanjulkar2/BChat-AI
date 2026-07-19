@@ -4,6 +4,7 @@ import { MyContext } from "./MyContext.jsx";
 import { useContext, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import {PropagateLoader} from "react-spinners";
+import API from "./api/axios";
 
 function ChatWindow({ sidebarOpen, setSidebarOpen }) {
     const {prompt, setPrompt, reply, setReply, currThreadId, setPrevChats, setNewChat} = useContext(MyContext);
@@ -33,14 +34,26 @@ function ChatWindow({ sidebarOpen, setSidebarOpen }) {
         };
 
         try {
-            const response = await fetch("http://localhost:8080/api/chat", options);
-            const res = await response.json();
-            console.log(res);
-            setReply(res.reply);
+            const response = await API.post(
+            "/chat",
+            {
+                message: prompt,
+                threadId: currThreadId
+            },
+            {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            }
+        );
+
+        setReply(response.data.reply);
         } catch(err) {
             console.log(err);
         }
         setLoading(false);
+
+
     }
 
     //Append new chat to prevChats

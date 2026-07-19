@@ -10,7 +10,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
     const getAllThreads = async () => {
         try {
             const response = await fetch(
-                "http://localhost:8080/api/thread",
+                "https://bchat-ai.onrender.com/api/thread",
                 {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem("token")}`
@@ -42,7 +42,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
 
         try {
             const response = await fetch(
-                `http://localhost:8080/api/thread/${newThreadId}`,
+                `https://bchat-ai.onrender.com/api/thread/${newThreadId}`,
                 {
                     headers:{
                         Authorization:`Bearer ${localStorage.getItem("token")}`
@@ -62,7 +62,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
     const deleteThread = async (threadId) => {
         try {
             const response = await fetch(
-                `http://localhost:8080/api/thread/${threadId}`,
+                `https://bchat-ai.onrender.com/api/thread/${threadId}`,
                 {
                     method:"DELETE",
 

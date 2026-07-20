@@ -4,9 +4,9 @@ An AI-powered full-stack chat application that allows users to securely sign up,
 
 ## Live Demo
 
-Frontend: https://b-chat-ai.vercel.app
+🌐 **Frontend:** https://b-chat-ai.vercel.app
 
-Backend: https://bchat-ai.onrender.com
+⚙️ **Backend API:** https://bchat-ai.onrender.com
 
 ---
 
@@ -134,7 +134,22 @@ npm run dev
 
 ##  Screenshots
 
-_Add screenshots of Login, Signup, Chat Page, and AI Conversation here._
+## Signup
+<img width="1272" height="537" alt="signup" src="https://github.com/user-attachments/assets/9f7ad7a0-274f-4a41-b97e-6d24c97bd88b" />
+
+##Login
+<img width="1276" height="542" alt="login" src="https://github.com/user-attachments/assets/bbfceb7f-2f53-4ccd-915d-75defb3e8e37" />
+
+## AI Chat Page
+<img width="1272" height="544" alt="chat page" src="https://github.com/user-attachments/assets/7709da40-0af2-4c7f-bc82-602a28bceda7" />
+
+## Chat History
+<img width="1276" height="542" alt="image" src="https://github.com/user-attachments/assets/3a83c476-415e-4702-a591-90eee2c1a87b" />
+
+## Responsive Design
+<img width="281" height="461" alt="ResChatPage" src="https://github.com/user-attachments/assets/5c4b5a6b-a115-4812-9c97-b076b6317d41" />
+
+
 
 ---
 
@@ -144,7 +159,7 @@ _Add screenshots of Login, Signup, Chat Page, and AI Conversation here._
 
 GitHub: https://github.com/bhavanavimanjulkar2
 
-LinkedIn: *(Add your LinkedIn profile here)*
+LinkedIn: https://www.linkedin.com/in/bhavana-vijay-manjulkar-29ba11246/
 
 Portfolio: https://bhavanavijayportfolio.netlify.app/
 

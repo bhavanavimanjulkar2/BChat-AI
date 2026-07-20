@@ -1,8 +1,8 @@
-# BChat AI
+                                                    # BChat AI
 
 An AI-powered full-stack chat application that allows users to securely sign up, log in, and chat with an AI assistant in real time using the OpenAI API. The application supports authentication, chat history, and thread-based conversations.
 
-## Live Demo
+## 🌐 Live Demo
 
 🌐 **Frontend:** https://b-chat-ai.vercel.app
 
@@ -24,7 +24,7 @@ An AI-powered full-stack chat application that allows users to securely sign up,
 
 ---
 
-##  Tech Stack
+##  Tech Stack - MERN Stack
 
 ### Frontend
 - React.js
@@ -144,12 +144,19 @@ npm run dev
 <img width="1272" height="544" alt="chat page" src="https://github.com/user-attachments/assets/7709da40-0af2-4c7f-bc82-602a28bceda7" />
 
 ## Chat History
-<img width="1276" height="542" alt="image" src="https://github.com/user-attachments/assets/3a83c476-415e-4702-a591-90eee2c1a87b" />
+<img width="1265" height="537" alt="chatHstory" src="https://github.com/user-attachments/assets/ee7ab367-28ca-4611-961f-13e32157e83d" />
 
 ## Responsive Design
 <img width="281" height="461" alt="ResChatPage" src="https://github.com/user-attachments/assets/5c4b5a6b-a115-4812-9c97-b076b6317d41" />
 
+---
+##  Future Improvements
 
+-  Image upload support
+-  Dark/Light theme
+-  Voice input
+-  Streaming AI responses
+-  Export chat history
 
 ---
 

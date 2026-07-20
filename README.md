@@ -1,30 +1,30 @@
-# 🤖 BChat AI
+# BChat AI
 
 An AI-powered full-stack chat application that allows users to securely sign up, log in, and chat with an AI assistant in real time using the OpenAI API. The application supports authentication, chat history, and thread-based conversations.
 
-## 🚀 Live Demo
+## Live Demo
 
-🌐 Frontend: https://b-chat-ai.vercel.app
+Frontend: https://b-chat-ai.vercel.app
 
-⚙️ Backend: https://bchat-ai.onrender.com
-
----
-
-## ✨ Features
-
-- 🔐 User Authentication (Signup & Login)
-- 🔑 JWT-based Secure Authorization
-- 🤖 AI-powered Chat using OpenAI API
-- 💬 Thread-based Chat History
-- 📜 Markdown & Code Syntax Highlighting
-- 👤 User Profile & Logout
-- 📱 Responsive User Interface
-- ☁️ Frontend deployed on Vercel
-- ☁️ Backend deployed on Render
+Backend: https://bchat-ai.onrender.com
 
 ---
 
-## 🛠️ Tech Stack
+##  Features
+
+-  User Authentication (Signup & Login)
+-  JWT-based Secure Authorization
+-  AI-powered Chat using OpenAI API
+-  Thread-based Chat History
+-  Markdown & Code Syntax Highlighting
+-  User Profile & Logout
+-  Responsive User Interface
+-  Frontend deployed on Vercel
+-  Backend deployed on Render
+
+---
+
+##  Tech Stack
 
 ### Frontend
 - React.js
@@ -50,7 +50,7 @@ An AI-powered full-stack chat application that allows users to securely sign up,
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 BChat-AI
@@ -74,7 +74,7 @@ BChat-AI
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Clone the Repository
 
@@ -100,7 +100,7 @@ npm install
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 Create a `.env` file inside the Backend folder.
 
@@ -116,7 +116,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 ---
 
-## ▶️ Run Locally
+##  Run Locally
 
 ### Backend
 
@@ -132,13 +132,13 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 _Add screenshots of Login, Signup, Chat Page, and AI Conversation here._
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Bhavana Vijay Manjulkar**
 
@@ -146,8 +146,8 @@ GitHub: https://github.com/bhavanavimanjulkar2
 
 LinkedIn: *(Add your LinkedIn profile here)*
 
-Portfolio: *(Add your portfolio link here)*
+Portfolio: https://bhavanavijayportfolio.netlify.app/
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+ If you like this project, consider giving it a star..!
